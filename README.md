@@ -8,7 +8,7 @@ Copyright (c) 2026 The Khatu Family Trust
 
 ![Catu Framework](https://raw.githubusercontent.com/nkhatu/catu_framework/main/assets/Catu.png)
 
-# Core Application Technology Utility (Catu) Framework
+# Complete App Topology Utility (Catu) Framework
 
 `catu_framework` is a reusable Flutter scaffold designed to help novice developers build their first structured app for Android and iOS without starting from a blank screen.
 

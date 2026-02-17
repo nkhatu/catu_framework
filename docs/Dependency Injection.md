@@ -3,7 +3,7 @@
 <!--
 File: docs/Dependency Injection.md
 File Version: 1.0.0
-Framework : Core App Tech Utilities (Catu) Framework
+Framework : Complete App Topology Utility (Catu) Framework
 Author: Neil Khatu
 Copyright (c) 2026 The Khatu Family Trust
 -->
