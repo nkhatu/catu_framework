@@ -1,3 +1,7 @@
+# File: example/analysis_options.yaml
+# File Version: 1.0.0
+# Copyright (c) 2026 The Khatu Family Trust
+
 # This file configures the analyzer, which statically analyzes Dart code to
 # check for errors, warnings, and lints.
 #

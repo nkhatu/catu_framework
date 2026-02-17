@@ -1,6 +1,6 @@
 # File: analysis_options.yaml
 # File Version: 1.0.0
-# Copyright (c) 2026 App Scaffolding Contributors
+# Copyright (c) 2026 The Khatu Family Trust
 
 include: package:flutter_lints/flutter.yaml
 
