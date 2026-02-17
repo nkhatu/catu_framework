@@ -8,7 +8,7 @@
 /// - Defines sign in page module.
 /// Architecture:
 /// - Authentication abstraction layer with pluggable providers.
-/// File Version: 1.4.0
+/// File Version: 1.5.0
 /// Framework : Core App Tech Utilities (Catu) Framework
 /// Author: Neil Khatu
 ///
@@ -31,7 +31,7 @@ class SignInPage extends StatefulWidget {
 }
 
 class _SignInPageState extends State<SignInPage> {
-  static const String _loginBackgroundAsset = 'assets/catu_new.png';
+  static const String _loginBackgroundAsset = 'assets/Catu.png';
 
   final _formKey = GlobalKey<FormState>();
   final _emailCtrl = TextEditingController();
@@ -110,7 +110,6 @@ class _SignInPageState extends State<SignInPage> {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          const ColoredBox(color: Colors.white),
           Image.asset(
             _loginBackgroundAsset,
             package: 'catu_framework',

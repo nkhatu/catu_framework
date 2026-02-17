@@ -12,7 +12,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
-SOURCE_ICON="$ROOT_DIR/assets/catu_new.png"
+SOURCE_ICON="$ROOT_DIR/assets/Catu.png"
 
 if [[ ! -f "$SOURCE_ICON" ]]; then
   echo "Source icon not found: $SOURCE_ICON"

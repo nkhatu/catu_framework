@@ -188,7 +188,7 @@ void main() {
 
 Source image for app icons:
 
-- `assets/catu_new.png`
+- `assets/Catu.png`
 
 Regenerate all committed icon sets:
 
