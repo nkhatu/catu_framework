@@ -179,12 +179,11 @@ This sequence helps beginners understand that Flutter apps are not just UI widge
 
 ## Wiring Guide
 
-- Getting started guide: 
-- Getting started guide: `docs/Getting Started.md`
-- Detailed setup and integration guide: `docs/Catu Framework : How To.md`
-- Dependency injection guide: `docs/Dependency Injection.md`
-- Developer install guide (setup + GitHub download): `docs/Developer Install Guide.md`
-- Firebase auth adapter example: `docs/examples/firebase_auth_service.example.dart`
+- Getting started guide: [docs/Getting Started.md](docs/Getting%20Started.md)
+- Detailed setup and integration guide: [docs/Catu Framework : How To.md](docs/Catu%20Framework%20:%20How%20To.md)
+- Dependency injection guide: [docs/Dependency Injection.md](docs/Dependency%20Injection.md)
+- Developer install guide (setup + GitHub download): [docs/Developer Install Guide.md](docs/Developer%20Install%20Guide.md)
+- Firebase auth adapter example: [docs/examples/firebase_auth_service.example.dart](docs/examples/firebase_auth_service.example.dart)
 
 ## App icon assets
 
