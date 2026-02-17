@@ -6,6 +6,8 @@ File Version: 1.1.0
 Copyright (c) 2026 The Khatu Family Trust
 -->
 
+![Catu Framework](https://raw.githubusercontent.com/nkhatu/app_scaffolding/main/assets/catu_framework.png)
+
 # app_scaffolding
 
 Reusable Flutter framework scaffold based on the architecture used in `app_scaffolding_source`.

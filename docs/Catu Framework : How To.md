@@ -8,6 +8,8 @@ Author: Neil Khatu
 Copyright (c) 2026 The Khatu Family Trust
 -->
 
+![Catu Framework](https://raw.githubusercontent.com/nkhatu/app_scaffolding/main/assets/catu_framework.png)
+
 # Catu Framework Wiring Guide
 
 For DI-first setup details: `docs/Dependency Injection.md`

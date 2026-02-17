@@ -8,6 +8,8 @@ Author: Neil Khatu
 Copyright (c) 2026 The Khatu Family Trust
 -->
 
+![Catu Framework](https://raw.githubusercontent.com/nkhatu/app_scaffolding/main/assets/catu_framework.png)
+
 # Dependency Injection in Catu Framework
 
 This document explains how dependency injection works in `app_scaffolding` and how to wire it.
