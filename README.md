@@ -2,7 +2,7 @@
 <!-- Copyright (c) 2026 The Khatu Family Trust -->
 <!--
 File: README.md
-File Version: 1.2.0
+File Version: 1.3.0
 Copyright (c) 2026 The Khatu Family Trust
 -->
 
@@ -186,12 +186,26 @@ This sequence helps beginners understand that Flutter apps are not just UI widge
 
 ## App icon assets
 
-Android and iOS app build icons are sourced from `catu_full_ios_android_icon_pack` and copied into:
+Source artwork for all icon sets:
+
+- `assets/Catu_Square_1024.png`
+
+Generated icon sets committed in this repository:
 
 - `assets/icons/android/mipmap-*/ic_launcher.png`
 - `assets/icons/ios/AppIcon.appiconset/*`
+- `catu_full_ios_android_icon_pack/Android_mipmap/mipmap-*/ic_launcher.png`
+- `catu_full_ios_android_icon_pack/iOS_AppIcon.appiconset/*`
+- `example/android/app/src/main/res/mipmap-*/ic_launcher.png`
+- `example/ios/Runner/Assets.xcassets/AppIcon.appiconset/*`
 
-To apply these icons to a Flutter app (with Android and iOS folders), run:
+Regenerate icon sets from the source image:
+
+```bash
+./scripts/generate_icon_sets.sh
+```
+
+Apply framework icons to a target Flutter app (with Android and iOS folders):
 
 ```bash
 ./scripts/apply_app_icons.sh /absolute/path/to/your_flutter_app

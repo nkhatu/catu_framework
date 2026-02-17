@@ -2,7 +2,7 @@
 <!-- Copyright (c) 2026 The Khatu Family Trust -->
 <!--
 File: docs/Catu Framework : How To.md
-File Version: 1.1.0
+File Version: 1.2.0
 Framework : Core App Tech Utilities (Catu) Framework
 Author: Neil Khatu
 Copyright (c) 2026 The Khatu Family Trust
@@ -185,16 +185,15 @@ Production expectation:
 
 ## Icons and Branding
 
-Source image:
-- `assets/catu_framework.png`
+Source image for icon generation:
+- `assets/Catu_Square_1024.png`
 
-Regenerate package icon assets:
+Regenerate all committed Android/iOS icon sets:
 ```bash
-# Regenerate icons in catu_framework/assets/icons/*
-# (if needed, use your existing icon-generation workflow)
+./scripts/generate_icon_sets.sh
 ```
 
-Apply icons into a target Flutter app:
+Apply framework icons into a target Flutter app:
 ```bash
 ./scripts/apply_app_icons.sh /absolute/path/to/flutter_app
 ```

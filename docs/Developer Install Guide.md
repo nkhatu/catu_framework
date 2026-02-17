@@ -2,7 +2,7 @@
 <!-- Copyright (c) 2026 The Khatu Family Trust -->
 <!--
 File: docs/Developer Install Guide.md
-File Version: 1.0.0
+File Version: 1.1.0
 Framework : Core App Tech Utilities (Catu) Framework
 Author: Neil Khatu
 Copyright (c) 2026 The Khatu Family Trust
@@ -186,7 +186,17 @@ void main() {
 
 ## 9. App Icons (Android + iOS)
 
-To copy prepared launcher icons into a target Flutter app:
+Source image for app icons:
+
+- `assets/Catu_Square_1024.png`
+
+Regenerate all committed icon sets:
+
+```bash
+./scripts/generate_icon_sets.sh
+```
+
+Copy prepared launcher icons into a target Flutter app:
 
 ```bash
 ./scripts/apply_app_icons.sh /absolute/path/to/your_flutter_app
